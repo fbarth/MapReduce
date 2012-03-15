@@ -1,0 +1,16 @@
+=== Exemplo de MapReduce ===
+
+Este projeto tem como objetivo exemplificar o uso do conceito de
+MapReduce atraves de um exemplo simples que Ž a contagem da
+frequencia de palavras em um arquivo texto. 
+
+Os exemplos estao implementados em Python. Os arquivos do projeto sao:
+
+Count.py: retorna a frequencia das palavras do documento usando um dicionario.
+
+Forma de utilizacao: #>./Count.py < big.txt
+
+Mapper.py: implementa a parte de mapeamento do MapReduce
+Reducer.py: implementa a parte de reducao do MapReduce
+
+Forma de utilizacao: #> ./Mapper.py < big.txt | sort | ./Reducer.py
