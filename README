@@ -1,7 +1,7 @@
 === Exemplo de MapReduce ===
 
 Este projeto tem como objetivo exemplificar o uso do conceito de
-MapReduce atraves de um exemplo simples que Ž a contagem da
+MapReduce atraves de um exemplo simples que e a contagem da
 frequencia de palavras em um arquivo texto. 
 
 Os exemplos estao implementados em Python. Os arquivos do projeto sao:
